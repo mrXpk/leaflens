@@ -1,0 +1,4 @@
+export const API_KEYS = {
+  PLANT_ID: 'PSI1Jq3wCJG8hk8VnCzSVCCVYWqQCbOgDv6RzVppbEYcB1dJaq',
+  GEMINI: 'AIzaSyADE6j4_RfadM94Sn3P1T1UbajjZths1MM',
+};
