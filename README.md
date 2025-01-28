@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# 🌿 LeafLens
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+LeafLens is an AI-powered plant identification and care guide mobile app built with Expo and React Native. Simply take a photo of any plant, and LeafLens will identify it and provide detailed care instructions.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- 📸 Plant identification through image recognition
+- 🔍 Detailed plant information and care guides
+- 💾 Search history and offline caching
+- 🤖 AI-powered plant care recommendations
+- 📱 Cross-platform (iOS & Android) support
 
+## 🛠️ Tech Stack
+
+- [Expo](https://expo.dev) - React Native framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Plant.id API](https://plant.id/) - Plant identification
+- [Google Gemini](https://deepmind.google/technologies/gemini/) - AI-powered plant care insights
+- [Trefle API](https://trefle.io/) - Plant database
+
+## 🏗️ Project Status
+
+This project is currently under active development. Follow the progress and contribute:
+
+- [Project Board](https://github.com/yourusername/leaflens/projects/1) - See what we're working on
+- [Discussions](https://github.com/yourusername/leaflens/discussions) - Join the conversation
+- [Issues](https://github.com/yourusername/leaflens/issues) - Report bugs or request features
+
+## 🚀 Getting Started
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/leaflens.git
+   cd leaflens
+   ```
+
+2. Install dependencies
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Set up environment variables
    ```bash
-    npx expo start
+   cp .env.example .env
+   ```
+   Then add your API keys for Plant.id, Trefle, and Google Gemini
+
+4. Start the development server
+   ```bash
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 🤝 Contributing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+We welcome contributions! Here's how you can help:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Get a fresh project
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
-When you're ready, run:
+## 📝 Development Process
 
-```bash
-npm run reset-project
-```
+This project is being built in public! Here's how we work:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. **Project Board**: Check our [Project Board](https://github.com/yourusername/leaflens/projects/1) for current tasks
+2. **Weekly Updates**: Follow development progress in our [Discussions](https://github.com/yourusername/leaflens/discussions)
+3. **Feature Previews**: Watch development streams and previews on [Twitter](https://twitter.com/yourusername)
 
-## Learn more
+## 📄 License
 
-To learn more about developing your project with Expo, look at the following resources:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🙏 Acknowledgments
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Plant.id for their plant identification API
+- Trefle.io for their comprehensive plant database
+- The Expo team for their amazing framework
