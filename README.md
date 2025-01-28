@@ -2,6 +2,15 @@
 
 LeafLens is an AI-powered plant identification and care guide mobile app built with Expo and React Native. Simply take a photo of any plant, and LeafLens will identify it and provide detailed care instructions.
 
+## 📱 Download
+
+You can download the latest version of LeafLens from:
+
+- [Latest Release on GitHub](https://github.com/mrXpk/leaflens/releases/latest) (Android APK)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.leaflens.app) (Coming Soon)
+
+> Note: When installing the APK directly, you might need to enable "Install from Unknown Sources" in your Android settings.
+
 ## 🚀 Features
 
 - 📸 Plant identification through image recognition
